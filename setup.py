@@ -1,6 +1,6 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 setup(
-    name="pybuilder-external-plugin-demo",
-    version="0.3",
-    package_dir = {'': 'src/main/python'}
+    name="pybuilderob",
+    version="0.1",
+    packages=find_packages(),
 )
